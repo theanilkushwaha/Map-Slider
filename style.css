@@ -1,0 +1,85 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h4 {
+  color: blue;
+}
+
+#map {
+  width: 56rem;
+  height: 45rem;
+}
+
+#accordin {
+  width: 600px;
+  transition: background 1s;
+}
+
+#accordin li {
+  list-style: none;
+  width: 100%;
+  border-radius: 5;
+  margin-bottom: 6px;
+  padding: 0px;
+}
+
+#accordin li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  cursor: pointer;
+  color: olive;
+  background-color: white;
+  border-bottom: 2px solid black;
+  width: 42rem;
+}
+
+#accordin li label span {
+  font-size: 1.5rem;
+  color: olive;
+  transition: max-height 2s ease-in-out;
+}
+
+#accordin .content {
+  padding: 0 10px;
+  line-height: 25px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s ease-in-out;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 100%;
+  height: 20rem;
+}
+
+.navItem {
+  display: flex;
+  /* justify-content: space-between ; */
+  align-items: flex-start;
+}
+.p_tag {
+  font-size: 0.6rem;
+}
+.one,
+.two,
+.three,
+.four {
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
+
+.accord_card {
+  margin-left: 2rem;
+}
